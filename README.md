@@ -14,12 +14,15 @@ file_manager_json.php 是图片中心，地址调用了OCS的地址，但本地�
 
 主要修改两个文件： php/upload_json.php 和 php/Qcloud_cos/Conf.php
 
-其他方面暂无其他的修改，php/Qcloud_cos/Conf.php主要该几个方面：
+其他方面暂无其他的修改，php/Qcloud_cos/Conf.php主要改几个方面：
 
 const APPID = 'ID'; //COS的ID
 const SECRET_ID = 'COS的SECRET_ID';
 const SECRET_KEY = 'COS的SECRET_KEY';
     
-php/upload_json.php主要该几个方面：
+php/upload_json.php主要改几个方面：
 
-$bucketName = "/这里修改为你COS的bucket";
+$bucketName = "这里修改为你COS的bucket";
+
+
+团队博客：http://tech.ynho.com
